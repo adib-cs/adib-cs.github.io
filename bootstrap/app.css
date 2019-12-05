@@ -1,0 +1,762 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: rgb(242,24,79);
+    display: inline-block;
+    width: 100%;
+    padding: 9px 0 10px 67px;
+}
+
+.footer-1 a {
+    color: white;
+    float: left;
+    margin: 0 11px 0 4px;
+}
+
+.footer-2 a {
+    color: white;
+    float: right;
+    margin: 0 76px 0 -42px;
+}
+
+.logo img {
+    width: 164px;
+    height: 68px;
+    margin: 0 0 0 72px;
+    padding: 2px 0 5px 0;
+}
+
+.logo-1 {
+    margin: -25px 612px 0 0px;
+    float: right;
+    display: block;
+}
+
+.logo-1 i {
+    color: black;
+    font-size: 44px;
+    margin: 35px 130px 0px 0px;
+}
+
+.logo-2 {
+    margin: 9px -245px 0 0;
+    float: right;
+    width: 194px;
+}
+
+.logo-3 {
+    margin: -92px 317px 0 0px;
+    float: right;
+    display: block;
+}
+
+.logo-3 i {
+    color: black;
+    font-size: 44px;
+    margin: 35px 130px 0px 0px;
+}
+
+.logo-4 {
+    margin: -57px 242px 0 0;
+    float: right;
+    width: 194px;
+}
+
+.bg-light {
+    background-color: rgb(6, 4, 88, 1)!important;
+    height: 80px;
+    border-bottom: 2px solid rgb(255, 44, 44);
+}
+
+
+.nav-item {
+    color: white;
+}
+
+.dropdown-toggle {
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 10px;
+    
+}
+
+.v_header {
+background-color: rgb(255, 44, 44);
+padding: 28px;
+margin-right: 60px;
+}
+
+.bg-utama {
+    background-image: url(/bootstrap/img/bg3.jpg);
+    height: 700px;
+    margin-top: 0;
+    background-size: cover;
+}
+
+.bg-utama h1 {
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bg-utama h3 {
+    background-color: rgb(21, 29, 63);
+    color: white;
+    border-left: 3px solid red;
+    margin-bottom: 20px;
+    padding: 5px 30px;
+    width: 485px;
+}
+
+.bg-utama h5 {
+    background-color: rgb(21, 29, 63);
+    color: white;
+    border-left: 3px solid red;
+    margin-top: 10px;
+    padding: 5px 30px;
+    width: 175px;
+}
+
+.bg-utama span {
+    color: white;
+}
+
+
+.b-utama {
+    padding: 142px 0 0px 211px;
+}
+
+.image1 {  
+       width: 340px;
+       height: 180px;
+}
+
+.image-grid {
+    width: 340px;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.image-grid1 {
+    background-color: rgba(185, 185, 185, 0.178);
+    height: 340px;
+}
+
+.image-grid1 h5 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.image-grid1 h6 {
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.image-grid1 button {
+    background-color: rgb(0, 5, 46);
+    color: white;
+    border-color: rgb(0, 5, 46);
+    border-radius: 10px;
+    padding: 3px 8px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.janju {
+    margin-left: 245px;
+    margin-top: -64px;
+}
+
+.ao-university {
+    text-align: center;
+    margin: 35px 245px;
+}
+
+.button-1 {
+    background-color: rgb(0, 5, 46);
+    border-radius: 10px;
+    color: white;
+    padding: 8px 30px;
+    margin: 20px;
+    border: 1px solid rgb(0, 5, 46);
+
+}
+
+.button-2 {
+    background-color: rgb(255, 17, 17);
+    border-radius: 10px;
+    color: white;
+    padding: 8px 30px;
+    margin: 20px;
+    border: 1px solid rgb(0, 5, 46);
+
+}
+
+.our-courses {
+    padding: 76px;
+    background-color: rgb(228, 228, 228);
+}
+
+.dollar {
+    background-color: rgb(2, 20, 156);
+    color: white;
+    border-left: red;
+    padding: 3px 8px;
+    margin: 0 0 0 237px;
+    position: absolute;
+}
+
+.our-courses-1 {
+    display: inline-block;
+    font-size: 40px;
+    color: red;
+    /* border-bottom: 2px solid red; */
+    margin: -60px 0 0 120px;
+    border-bottom-width: 20px solid red;
+}
+
+.grs {
+    color: black;
+    border-bottom: 1px solid red;
+    border-width: 3px;
+}
+
+.image-2 {  
+    width: 288px;
+    height: 245px;
+}
+
+
+.image-grid2 {
+    width: 288px;
+    text-align: left;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 461px;
+    margin: 23px 0 0 12px;
+}
+
+.image-grid3 h5 {
+    margin: 20px 0 17px 20px;
+}
+
+.image-grid3 h6 {
+    margin-top: 4px;
+    margin-left: 20px;
+    }
+
+.image-grid3 button {
+    background-color: rgb(0, 5, 46);
+    color: white;
+    border-color: rgb(0, 5, 46);
+    border-radius: 6px;
+    padding: 3px 8px;
+    margin: 19px 0 0 20px;
+}
+
+.kikukx {
+    margin: 0 0 0 77px;
+    }
+
+    .awards {
+        /* background-color: rgb(0, 0, 73); */
+        width: 100%;
+        height: 257px;
+        display: block;
+        background-image: url(/bootstrap/img/anya1.jpg);
+        background-size: cover;
+    }
+
+    .awards-1 {
+        color: white;
+        margin: 0px 0 0 182px;
+        /* float: left; */
+    }
+
+    .awards-2 {
+        margin: 0 0 0 -6px;
+        color: white;
+        float: left;
+        font-size: 49px;;
+    }
+
+    .awards-2 span {
+        margin: 0 0 0 205px;
+    }
+
+    .awards-3 {
+        margin: 0 0 0 14px;
+        color: white;
+        float: left;
+        font-size: 15px;;
+    }
+
+    .awards-3 span {
+        margin: 0 0 0 205px;
+    }
+
+
+/* 
+    .awards-1 span {
+        margin: 0 0 0 162px;
+        font-size: 34px;
+    }
+
+    .awards-1 p {
+        margin: 0 0 0 147px;
+        font-size: 15px;
+        opacity: 0.8;
+    } */
+
+    #icon {
+        float: left;
+        color: red;
+        font-size: 40px;
+        opacity: 0.7;   
+        margin: 45px 0px 0px 266px;
+    }
+
+    .our-teachers {
+        padding: 76px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .our-teachers-1 {
+        display: inline-block;
+        font-size: 40px;
+        color: red;
+        /* border-bottom: 2px solid red; */
+        margin: -60px 0 0 120px;
+        border-bottom-width: 20px solid red;
+    }
+
+    .image2 {  
+        width: 278px;
+        height: 245px;
+    }
+
+    .image-grid5 {
+        width: 278px;
+        text-align: left;
+        display: inline-block;
+        background-color: rgb(236, 236, 236);
+        height: 398px;
+        margin: 23px 0 0 12px;
+    }
+
+    .image-grid4 h5 {
+        margin: 20px 0 17px 57px;
+        color: red;
+    }
+    
+    .image-grid4 h6 {
+        margin: 19px 0 0 78px;
+        font-size: 16px;
+        }
+    
+    .icon-sosmed {
+        width: 28px;
+        margin: -107px 0 -151px 31px;
+        }
+
+        .photo-galery {
+            margin: 0px 0px 0px 85px;
+            font-size: 26px;
+        }
+
+        .testimonal {
+            margin: 0px 0px 0px 385px;
+            font-size: 26px;
+        }
+
+        .image-galery {
+            display: block;
+            margin: 30px 0 0 84px;
+            width: 700px;
+        }
+
+        .image-galery-1 {
+            width: 146px;
+            height: 109px;
+            margin: 0 0 5px 1px;
+        }
+
+        .button3 {
+            border: 1px solid #ffffff;
+            padding: 5px 20px;
+            float: right;
+            margin: 0 100px 0 -91px;
+        }
+
+        .testimonal-1 {
+                width: 531px;
+                height: 158px;
+                display: block;
+                margin: -342px 102px 0px 0;
+                float: right;
+                border: 1px solid rgb(163, 163, 163);
+                border-left: 4px solid red;
+            }
+
+        .testimonal-2 {
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+            margin: 31px 0 0 30px;        
+        }
+
+        .testimonal-3 {
+            float: right;
+            padding: 7px 36px 0 0;
+        }
+
+.testimonal-4 {
+    width: 531px;
+    height: 158px;
+    display: block;
+    margin: -163px 102px 0px 0;
+    float: right;
+    border: 1px solid rgb(163, 163, 163);
+    border-right: 4px solid red;
+    }
+
+.testimonal-5 {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 31px 0 0 30px; 
+    }
+
+.testimonal-6 {
+    float: right;
+    padding: 7px 64px 0 0;
+    }
+
+.watch-video {
+    background-image: url(/bootstrap/img/anya3.jpg);
+    width: 100%;
+    height: 324px;
+    background-size: cover;
+
+}    
+.watch-video h2 {
+    padding: 72px 0px 0px 298px;
+    color: white;
+    }
+
+.watch-video a img {
+    width: 68px;
+    height: auto;
+    margin: -11px 0 0 756px;
+    }
+
+.ln {
+   margin: 0 0 0 146px;
+}
+
+.latest-news {
+    /* display: inline-block; */
+    margin-top: 55px;
+    width: 1420px;
+}
+
+.latest-news-1 {
+    margin-left: 161px;
+    font-size: 30px;
+}
+
+.latest-news-2 {
+    margin: 31px 0 0 17px;
+    width: 371px;
+    height: 450px;
+    display: inline-block;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    box-shadow: 2px 0px rgba(0, 0, 0, 0.433);
+}
+
+.latest-news-2 img {
+    width: 371px;
+    height: 279px;
+}
+
+.lc {
+    position: absolute;
+    margin: 0 0 0 -98px;
+    background-color: rgba(13, 0, 88, 0.459);
+    color: white;
+    width: 98px;
+    height: 279px;
+    text-align: center;
+    padding: 28px 0px 0px 7px;
+}
+
+.lc i {
+font-size: 43px;
+}
+
+.latest-news-2 h6 {
+    margin: 29px 0 -9px -144px;
+}
+
+.latest-news-2 span {
+    padding: 34px 0 0 0;
+}
+
+.latest-news-2 button {
+    background-color: rgba(13, 0, 88);
+    color: white;
+    border-radius: 1px;
+    border: none;
+    padding: 6px 21px;
+    margin: 18px 0 0 38px;
+    float: left;
+}
+
+.latest-news-2 h5 {
+    margin: 35px 27px 0 0;
+    float: right;
+    font-size: 15px;
+}
+
+.latest-news-2 h4 {
+    padding: 22px 81px 0px 0px;
+    font-size: 18px;
+}
+
+
+.latest-news-2 h6 {
+    margin: -12px 59px 0 0px;
+}
+
+.clients {
+    background-color: rgb(242,24,79);
+    text-align: center;
+}
+
+.info {
+    background-image: url(/bootstrap/img/anya3.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.info-1 {
+    display: block;
+    width: 180px;
+    color: rgb(109, 103, 103);
+    padding: 70px 0 0 0px;
+    margin: 0 0 0 149px;
+}
+
+.info-1 i {
+    color: red;
+}
+
+.info-2 {
+    position: absolute;
+    display: block;
+    margin: -233px 0 0 400px;
+}
+
+.info-2 span {
+    color: white;
+    font-size: 25px;
+}
+
+.info-2 a {
+    color: rgb(109, 103, 103);
+    text-decoration: none;
+    margin: 0 0 0 20px;
+}
+
+.info-2 p {
+    border-bottom:2px dotted rgb(109, 103, 103);
+    width: 231px;
+}
+
+.info-3 {
+    display: block;
+    position: absolute;
+    margin: -233px 0 0 670px;
+}
+
+.twitter-feed {
+    color: white;
+    font-size: 25px;
+}
+
+.info-4 {
+    margin: 12px 0 0 3px;
+    position: absolute;
+    width: 166px;
+}
+
+.info-4 span {
+    color: rgb(109, 103, 103);
+    position: absolute;
+    margin: -27px 0 0 31px;
+}
+
+.info-3 i {
+    color: red;
+}
+
+.info-5 {
+    margin: 133px 0 0 3px;
+    position: absolute;
+    width: 166px;
+}
+
+.info-5 span {
+    color: rgb(109, 103, 103);
+    position: absolute;
+    margin: -27px 0 0 31px;
+}
+
+.info-4 p {
+    border-bottom:2px dotted rgb(109, 103, 103);
+    width: 300px;
+    margin: 57px 0 0 0;
+}
+
+.info-5 p {
+    border-bottom:2px dotted rgb(109, 103, 103);
+    width: 300px;
+    margin: 79px 0 0 0px;
+}
+
+.info-6 {
+    width: 255px;
+    position: absolute;
+    margin: -229px 0 0 1026px;
+}
+
+.Open-Hours {
+    color: white;
+    font-size: 25px;
+}
+
+.time {
+    color: rgb(109, 103, 103);
+}
+
+.time p {
+    border-bottom:2px dotted rgb(109, 103, 103);
+    width: 300px;
+}
+
+.time small {
+    float: right;
+    font-size: 17px;
+    margin: 0 -44px 0 0;
+}
+
+.end {
+    border-bottom: 2px dotted rgb(109, 103, 103);
+    margin: 106px 0 0 152px;
+    width: 1172px;
+}
+
+.call {
+    margin: 48px 0 0 152px;
+}
+
+.call p {
+    color: white;
+}
+
+.call span {
+    color: rgb(109, 103, 103);
+}
+
+.sosmed {
+    margin: -86px 0 0 437px;
+    position: absolute;
+}
+
+.sosmed p {
+    color: white;
+}
+
+
+.sosmed a {
+    border: 1px solid rgb(109, 103, 103);
+    color: rgb(109, 103, 103);
+    padding: 4px 6px;
+}
+
+.subcribe {
+    margin: -80px 173px 0 0px;
+    float: right;
+}
+
+.subcribe span {
+ color: white;
+}
+
+.text {
+    padding: 10px 10px;
+    width: 400px;
+    border: none;
+    border-radius: 3px;
+    }
+
+.submit {
+    padding: 10px 29px;
+    margin: 0 0 0 -8px;
+    border: none;
+    background-color: rgb(242,24,79);
+    border-radius: 3px;
+}
+
+.footer-3 {
+    background-color: rgb(47, 47, 47);
+    height: 45px;
+}
+
+.footer-4 a {
+    float: right;
+    padding: 0 0 6px 11px;
+    margin: -22px 173px 0px -164px;
+    color: rgb(109, 103, 103);
+}
+
+.footer-3 p {
+    margin: 0 0 0px 152px;
+    color: rgb(109, 103, 103);
+    padding: 12px 0 0 0;
+}
+
+.col- {
+    height: 360px;
+    background-color: rgba(185, 185, 185, 0.178);
+    margin: -91px 0 32px 33px;
+    }
+
+.desc- {
+    position: absolute;
+    margin: 208px 0 0 -310px;
+}
+
+.desc- button {
+    background: rgb(0, 2, 93);
+    color: white;
+    border-radius: 5px;
+}

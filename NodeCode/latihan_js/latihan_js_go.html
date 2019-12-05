@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/apps.css">
+    <title>Latihan js 1</title>
+</head>
+   
+<body>
+    <p>latihan js</p>
+    <p id="demo"></p><br>
+    <br>
+    <i id="kikuk1" style="color: white; background-color: black; border: 1px solid black; border-radius: 5px;"></i>
+    
+    <p id="kikuk2"></p>
+
+    
+
+    
+
+    <p id="kukuk7"></p>
+    <p id="kikuk8"></p><br>
+    <!-- <p id="jogja"></p>
+    <p id="demo4"></p> -->
+    <p id="kikuk10" style="background-color: rgb(152, 152, 255);"></p> <!-- belum ngerti -->
+    <p id="kikuk11" style="background-color: rgb(152, 152, 255);"></p> <!-- belum ngerti -->
+    <p id="kikuk12" style="background-color: rgb(152, 152, 255);"></p> <!-- belum ngerti -->
+    <p id="kikuk13" style="background-color: rgb(152, 152, 255);"></p> <!-- belum ngerti -->
+    <p id="kikuk14"></p><br>
+    <i id="pur"></i><br>
+    <button onclick="function4()">klok</button>
+    <p id="kikuk15"></p>
+    <p id="kikuk16"></p>
+    <p id="kikuk17"></p>
+    <!-- <p id="kikuk16"></p> -->
+    <!-- <p id="kikuk18"></p> -->
+    <P id="beli"></P>
+    <P id="beli1"></P>
+  
+    <div class="kikuk20"></div>
+    <div class="kikuk21"></div>
+    <img src="assets/image-travel-8.jpg" alt="wisata" id="kikuk22" style="width: 100px;">
+    <p onmouseover="document.getElementById('kikuk2').innerHTML='waktu otomatis terefresh jika mouse diarahkan ke teks purwodadi is the best'+ ' ' + 
+    Date()" title="arahkan mouse kesini">purwodadi is the best</p>
+    <ul>
+        <li>jakarta</li>
+        <li>bandung</li>
+        <li>surabaya</li>
+    </ul>
+    <p class="kikuk19"></p>
+    <p class="kikuk19"></p>
+    <p class="kikuk19"></p>  
+    <p id="demo3">purwodadi purwodadi purwodadi jawa tengah</p>
+
+    <hr>
+    <button onclick="myFunction1()" id="buttonTest">replace(i)</button>
+    <button onclick="myFunction2()" id="buttonTest">replace(g)</button>
+    <button onclick="myFunction3()" id="buttonTest" title="merge">concat()</button>
+    <button onclick="myFunction78()" id="buttonTest" title="buat nyari diangka tertentu ada huruf apa">charAt()</button>
+    <button onclick="myFunction79()" id="buttonTest" title="kenapa hasilnya 106">charCodeAt()</button>
+    <button onclick="myFunction80()" id="buttonTest" title="mengubah string ke integer">Number()</button>
+    <button onclick="myFunction81()" id="buttonTest" title="mengubah string ke integer dengan parseInt() / + ">parseInt()</button>
+    <button onclick="myFunction82()" id="buttonTest" title="seperti parseInt">parseFloat()</button>    
+    <button onclick="myFunction83()" id="buttonTest" title="mengeluarkan huruf dari parameter pertama sampai parameter kedua yang ditentukan">slice()</button>
+    <button onclick="myFunction84()" id="buttonTest" title="seperti slice">substring()</button>
+    <button onclick="myFunction85()" id="buttonTest" title="seperti slice() dan substring() bedanya paramater kedua jumlah huruf yang akan dikeluarkan">substr()</button>
+    <button onclick="myFunction87()" id="buttonTest" title="mengeluarkan value dari type data">valueOf()</button>
+    <button onclick="myFunction9()" id="buttonTest">array</button>
+    <button onclick="myFunction5()" id="buttonTest">sort()</button>
+    <button onclick="myFunction23()" id="buttonTest" title="short number">sort()</button>
+    <button onclick="myFunction24()" id="buttonTest" title="short number Math.random">sort()</button>
+    <button onclick="myFunction22()" id="buttonTest">reverse()</button>
+    <button onclick="myFunction6()" id="buttonTest" title="diarray menghitung jumlah isi array distring menghitung jumlah huruf">length</button>
+    <button onclick="myFunction7()" id="buttonTest" title="Objek, Function, Array dalam array">ofa</button>
+    <button onclick="myFunction8()" id="buttonTest">last array</button>
+    <button onclick="myFunction10()" id="buttonTest">for array</button>
+    <button onclick="myFunction11()" id="buttonTest">foreach array</button>
+    <button onclick="myFunction12()" id="buttonTest" title="add surabaya to array">asta</button>
+    <button onclick="myFunction13()" id="buttonTest">instanceof</button>
+    <button onclick="myFunction14()" id="buttonTest">join()</button>
+    <button onclick="myFunction15()" id="buttonTest" title="menghapus value array terakhir">pop()</button>
+    <button onclick="myFunction16()" id="buttonTest">shift()</button>
+    <button onclick="myFunction17()" id="buttonTest" title="menambahkan value array diawal">unshift()</button>
+    <button onclick="myFunction18()" id="buttonTest">delete 1 array</button>
+    <button onclick="myFunction19()" id="buttonTest" title="combining arrays with new values">splice()</button>
+    <button onclick="myFunction20()" id="buttonTest" title="delete array index 1">splice()</button>
+    <button onclick="myFunction21()" id="buttonTest"
+        title="bisa menambahkan beberapa array atau value">concat()</button>
+    <button onclick="myFunction25()" id="buttonTest">Math.max.apply()</button>
+    <button onclick="myFunction26()" id="buttonTest">Math.min.apply()</button>
+    <button onclick="myFunction27()" id="buttonTest" title="untuk array berobjek">sort()</button>
+    <button onclick="myFunction28()" id="buttonTest">array.forEach()</button>
+    <button onclick="myFunction29()" id="buttonTest" title="hampir dengan foreach atau for">map()</button>
+    <button onclick="myFunction30()" id="buttonTest">filter()</button>
+    <button onclick="myFunction31()" id="buttonTest">reduce()</button>
+    <button onclick="myFunction32()" id="buttonTest">reduceRight()</button>
+    <button onclick="myFunction33()" id="buttonTest"
+        title="mengecek apakah salah satu value array ada yang true">very()</button>
+    <button onclick="myFunction34()" id="buttonTest"
+        title="mengecek apakah salah satu value array ada yang true">some()</button>
+    <button onclick="myFunction35()" id="buttonTest" title="mencari indexnya value array">indexOf()</button>
+    <button onclick="myFunction36()" id="buttonTest"
+        title="mencari indexnya value array yang terakhir">lastIndexOf()</button>
+    <button onclick="myFunction37()" id="buttonTest" title="mencari value terdekat">find()</button>
+    <button onclick="myFunction38()" id="buttonTest" title="mencari index dengan value terdekat">findIndex()</button>
+    <button onclick="myFunction39()" id="buttonTest">date()</button>
+    <button onclick="myFunction40()" id="buttonTest"
+        title="ditambah if else if else -set- untuk membatasinya">date()</button>
+    <button onclick="myFunction41()" id="buttonTest">Math.round()</button>
+    <button onclick="myFunction42()" id="buttonTest" title="Math.pow(15, 2) = 15 x 15">Math.pow()</button>
+    <button onclick="myFunction43()" id="buttonTest">Math.sqrt()</button>
+    <button onclick="myFunction44()" id="buttonTest">Math.abs()</button>
+    <button onclick="myFunction45()" id="buttonTest">Math.ceil()</button>
+    <button onclick="myFunction46()" id="buttonTest">Math.floor()</button>
+    <button onclick="myFunction47()" id="buttonTest">Math.sin()</button>
+    <button onclick="myFunction48()" id="buttonTest">Math.cos()</button>
+    <button onclick="myFunction49()" id="buttonTest">Math.random()</button>
+    <button onclick="myFunction50(1, 1001)" id="buttonTest">Math.random()</button>
+    <button onclick="myFunction51()" id="buttonTest">Boolean()</button>
+    <button onclick="myFunction52()" id="buttonTest">Comparison</button>
+    <button onclick="myFunction53()" id="buttonTest">if else()</button>
+    <button onclick="myFunction86()" id="buttonTest" title="if else if dalam if else if">if else()</button>
+    <button onclick="myFunction54()" id="buttonTest">switch</button>
+    <button onclick="myFunction55()" id="buttonTest">for()</button>
+    <button onclick="myFunction56()" id="buttonTest">for(in)</button>
+    <button onclick="myFunction57()" id="buttonTest">for(of)</button>
+    <button onclick="myFunction58()" id="buttonTest">for(of)string</button>
+    <button onclick="myFunction59()" id="buttonTest">while()</button>
+    <button onclick="myFunction60()" id="buttonTest">do while()</button>
+    <button onclick="myFunction61()" id="buttonTest">for() array</button>
+    <button onclick="myFunction62()" id="buttonTest">while() array</button>
+    <button onclick="myFunction63()" id="buttonTest">break</button>
+    <button onclick="myFunction64()" id="buttonTest">continue</button>
+    <button onclick="myFunction65()" id="buttonTest" title="typeof() untuk type data dari array dusun">typeof()</button>
+    <button onclick="myFunction66()" id="buttonTest">constructor</button>
+    <!-- <button onclick="myFunction67()" id="buttonTest">constructor</button> -->
+    <button onclick="myFunction68()" id="buttonTest">toString()</button>
+    <!-- <button onclick="myFunction69()" id="buttonTest">toString()</button> -->
+    <!-- <button onclick="hello" id="buttonTest">arrows function</button> -->
+    <!-- <button onclick="myFunction70()" id="buttonTest">class</button>  -->
+    <button onclick="myFunction71()" id="buttonTest">arrows function</button> 
+    <button onclick="myFunction72()" id="buttonTest">arrows function1</button> 
+    <button onclick="myFunction73()" id="buttonTest">arrows function2</button> 
+    <button onclick="myFunction74(5)" id="buttonTest">arrows function3</button> 
+    <button onclick="myFunction75()" id="buttonTest">arrows function4</button> 
+    <button onclick="myFunction76()" id="buttonTest">arrows function5</button> 
+    <button onclick="myFunction77()" id="buttonTest">split()</button> 
+    <button onclick="myFunction88()" id="buttonTest" title="langsung 3 tag p">test</button> 
+    <button onclick="myFunction89()" id="buttonTest" title="langsung 3 tag li">test-1</button> 
+
+
+    <p id="demo"></p>
+
+    <!-- <button onclick="myFunction39()" id="buttonTest">date()</button> -->
+    <hr>
+    <div id=hasil>
+        <span id="info">hasilnya akan keluar disini......</span>
+    </div>
+    <br><br><br>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
