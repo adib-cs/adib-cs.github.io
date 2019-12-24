@@ -2,11 +2,20 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px) {    
+ 
+    .title {
+        color: blue;
+        font-size: 25px;
+    }
+
+}
+
 .body {
     margin: 0;
 }
 
-.jumbotron {
+.title {
     font-family: 'New Rocker';
     font-size: 102px;
 }
@@ -15,35 +24,85 @@
     text-align: center;
 }
 
-.tombol a {
+.tombol {
+    margin: 0 0 0 172px;
+}
+
+.a1 {
     text-decoration: none;
     padding: 10px 50px 15px 50px;
-    margin: 5px;
+    margin: 0 0 0 -607px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url('/img/rainbow1.gif');
+    transition: 1s;
+    position: fixed;
+}
+
+.a2 {
+    text-decoration: none;
+    padding: 10px 50px 15px 50px;
+    margin: 0 0 0 -341px;
     color: white;
     border: 1px solid black;
     border-radius: 10px;
     background-image: url('../img/rainbow1.gif');
     transition: 1s;
+    position: fixed;
+}
+
+.a3 {
+    text-decoration: none;
+    padding: 10px 50px 15px 50px;
+    margin: 0 0 0 -75px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url('../img/rainbow1.gif');
+    transition: 1s;
+    position: fixed;
+}
+
+.a4 {
+    text-decoration: none;
+    padding: 10px 50px 15px 50px;
+    margin: 0 0 0 186px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url('../img/rainbow1.gif');
+    transition: 1s;
+    position: fixed;
 }
 
 .a1:hover {
-    padding: 10px 50px 15px 50px;
+    padding: 2px 10px 2px 10px;
     font-size: 40px;
     font-family: 'New Rocker';
+    margin: -5px 0 0 -625px;
 }
 
 .a2:hover {
-    padding: 10px 50px 15px 50px;
+    padding: 2px 10px 2px 10px;
     font-size: 40px;
     display: inline-block;
     font-family: 'New Rocker';
+    margin: -5px 0 0 -366px;
 }
 
 .a3:hover {
-    padding: 10px 50px 15px 50px;
+    padding: 2px 10px 2px 10px;
     font-size: 40px;
     display: inline-block;
     font-family: 'New Rocker';
+    margin: -5px 0 0 -102px;
 }
 
-
+.a4:hover {
+    padding: 2px 10px 2px 10px;
+    font-size: 40px;
+    display: inline-block;
+    font-family: 'New Rocker';
+    margin: -5px 0 0 167px;
+}
