@@ -76,6 +76,18 @@
     position: fixed;
 }
 
+.a5 {
+    text-decoration: none;
+    padding: 10px 50px 15px 50px;
+    margin: 67px -607px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url('../img/rainbow1.gif');
+    transition: 1s;
+    position: fixed;
+}
+
 .a1:hover {
     padding: 2px 10px 2px 10px;
     font-size: 40px;
@@ -105,4 +117,12 @@
     display: inline-block;
     font-family: 'New Rocker';
     margin: -5px 0 0 167px;
+}
+
+.a5:hover {
+    padding: 2px 10px 2px 10px;
+    font-size: 40px;
+    display: inline-block;
+    font-family: 'New Rocker';
+    margin: 63px -620px;
 }
