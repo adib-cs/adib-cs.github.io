@@ -2,13 +2,79 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {    
+@media only screen and (max-width: 720px) {    
  
     .title {
-        color: blue;
-        font-size: 25px;
+        color: red;
+        font-size: 81px!important;
     }
 
+    .tombol {
+        width: 400px;
+    }
+
+    .a1 {
+        padding: 6% 32%!important;
+        margin: -6% -70%!important;
+    }
+
+    .a1:hover {
+        padding: 0% 13%!important;
+        font-size: 287%!important;
+        font-family: 'New Rocker'!important;
+        margin: -1% -70%!important;
+    }
+
+    .a2 {
+        padding: 6% 32%!important;
+        margin: 15% -70%!important;
+    }
+
+    .a2:hover {
+        padding: 0% 13%!important;
+        font-size: 287%!important;
+        font-family: 'New Rocker'!important;
+        margin: 17% -70%!important;
+    }
+
+    .a3 {
+        padding: 6% 32%!important;
+        margin: 36% -70%!important;
+    }
+
+    .a3:hover {
+        padding: 0% 13%!important;
+        font-size: 287%!important;
+        font-family: 'New Rocker'!important;
+        margin: 38% -70%!important;
+    }
+
+    .a4 {
+        padding: 6% 29%!important;
+        margin: 57% -70%!important;
+    }
+
+    .a4:hover {
+        padding: 0% 6%!important;
+        font-size: 287%!important;
+        font-family: 'New Rocker'!important;
+        margin: 59% -70%!important;
+    }
+
+    .a5 {
+        padding: 6% 36%!important;
+        margin: 78% -70%!important;
+    }
+
+    .a5:hover {
+        padding: 0 24%!important;
+        font-size: 287%!important;
+        font-family: 'New Rocker'!important;
+         margin: 80% -70%!important;
+    }
+
+
+    }
 }
 
 .body {

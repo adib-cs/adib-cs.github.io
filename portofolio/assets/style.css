@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1080px) {
 
     .header-top {
-        margin: -16% 28%!important;
+        margin: -33% 2%!important;
     }
 
     .header-1 a {
@@ -12,14 +12,28 @@
         width: 120px!important;
         margin: 1% 1%!important;
     }
-
+ 
     #menu-hide {
         display: inline!important;
     }
 
+    .set-360 {
+        margin: 10% 2%!important;
+        width: 97%!important;
+    }
+
     .set-360 iframe {
-        width: 93%!important;
-        height: 500px!important;
+        width: 98%!important;
+        height: 400px!important;
+    }
+
+    #menu {
+        margin: -36% -22%!important;
+    }
+
+    #menu button {
+        margin: -6% 70%!important;
+
     }
 
 }
