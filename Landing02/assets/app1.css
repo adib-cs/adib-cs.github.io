@@ -1,9 +1,61 @@
+@media only screen and (max-width: 720px) {
+   .logo_travel {
+       margin: 0 34%!important;
+   }
+
+   .awal {
+    font-size: 212% !important;
+    font-weight: bold;
+   }
+
+   .menu-header {
+      width: 100%;
+      margin: 0!important;
+      padding: 1% 7%;   
+      display: inline-block;
+   }
+
+   .h-nav {
+       color: white!important;
+   }
+
+   .dropdown {
+    margin: 2% 32% !important;
+   }
+
+   .search-city {
+    width: 41% !important;
+    padding: 3% !important;
+    margin: 1% 32% !important;
+   }
+
+   .submit-sc {
+    margin: 4% 41% !important;     
+   }
+
+   .jumbotron1 {
+       font-size: 57%!important;   
+   }
+
+   .kendaraan {
+       padding: 1%!important;
+       margin: 1%!important;
+   }
+
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+}
+
+.logo_travel {
+    margin: 0 70px;
+    width: 180px;
+    height: auto;
 }
 
 .jumbotron {
@@ -13,9 +65,7 @@ body {
 
 .menu-header {
     float: right;
-    margin-top: 18px;
-    margin-right: 80px;
-
+    margin: 18px 80px;
 }
 
 .h-nav {
@@ -45,8 +95,7 @@ body {
     background-color: white;
     padding: 10px 100px 10px 1px;
     width: 200px;
-    margin-left: 1px;
-    margin-top: 5px;
+    margin: 1% 0;
     overflow: auto;
     border-radius: 5px;
     float: left;
@@ -65,10 +114,9 @@ body {
 }
 
 .search-city {
-    margin-top: 5px;
+    margin: 5px 0 0 10px;
     padding: 12px;
     width: 400px;
-    margin-left: 10px;
     color: black;
     float: left;
     border-radius: 5px;
@@ -127,7 +175,8 @@ body {
     display: inline-block;
     background-color: white;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-    margin: 15px;
+    margin: 1%;
+    width: 30%;
 }
 
 .name-galery {
@@ -140,7 +189,7 @@ body {
 
 .image {
 
-    width: 429px;
+    width: 100%;
     height: 200px;
 }
 
@@ -149,7 +198,7 @@ body {
 }
 
 .imagea {
-    width: 724px;
+    width: 46%;
     height: 370px;
     float: left;
     margin: 8px;
@@ -182,5 +231,3 @@ body {
     padding: 10px;
 }
 
-
-.icon-galery {}

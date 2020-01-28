@@ -814,8 +814,20 @@ myFunction89 = () => {
     teknem[1].innerHTML = "jogjakarta";
     teknem[2].innerHTML = "blora";
 }
+ // jika discroll akan menjalankan sesuatu yang sudah ditentukan
+window.onscroll = function() {colorBody()};
+colorBody = () => {
+    let body = document.documentElement.scrollTop;
+    console.log(body);
+    if(body > 460) {
+        document.body.style.backgroundColor = 'red';
+    }
 
-
+    if(body < 300) {
+        document.body.style.backgroundColor = 'transparent';
+    }
+    
+}
 
 
 

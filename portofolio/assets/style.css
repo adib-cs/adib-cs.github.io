@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 720px) {
 
     .header-top {
         margin: -33% 2%!important;
@@ -147,4 +147,17 @@ body {
     width: 90%;
 }
 
+.container {
+    margin: 0 7%;
+}
 
+#section img {
+    width: 100%;
+    height: auto;
+    border-radius: 12% 1%;
+}
+
+#section b {
+    font-size: 500%;
+    text-align: center;
+}

@@ -6,4 +6,6 @@ function button_menu() {
 
 function close_menu () {
     menu.style.display = 'none';
-}
+} 
+window.onscroll = function() {warna()};
+
