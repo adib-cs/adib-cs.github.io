@@ -12,7 +12,7 @@
         width: 120px!important;
         margin: 1% 1%!important;
     }
- 
+  
     #menu-hide {
         display: inline!important;
     }
@@ -160,4 +160,18 @@ body {
 #section b {
     font-size: 500%;
     text-align: center;
+}
+
+#article2 img {
+    width: 30%;
+    height: auto;
+    border-radius: 2%;
+}
+
+#article3 img {
+    margin: 6% 1%;
+}
+
+#article4 {
+    float: left;
 }

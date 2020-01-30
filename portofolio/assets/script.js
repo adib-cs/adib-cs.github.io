@@ -9,3 +9,10 @@ function close_menu () {
 } 
 window.onscroll = function() {warna()};
 
+ let copyText = document.getElementById('scrcpy');
+
+ copy = () => {
+     copyText.select();
+     document.execCommand('copy');
+     alert(copyText.value + ' => copied');
+ }
