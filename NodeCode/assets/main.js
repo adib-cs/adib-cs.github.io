@@ -1,3 +1,8 @@
+let saveCode = {
+    'nama' : 'adib',
+    'umur' : 10,
+    'skill' : 'fullstack'
+}
 var e1 = "jakarta bogor depok tasikmalaya depok bekasi";
 var e2 = e1.split(" ");
     var sleman1 = e1.indexOf("bogor");
@@ -6,7 +11,7 @@ var e2 = e1.split(" ");
     var sleman3 = e1.indexOf("depok", 19);
     var sleman4 = e1.lastIndexOf("depok", 15);
     
-   
+    
 
 
     
@@ -52,16 +57,16 @@ var e2 = e1.split(" ");
 
     
 
-    function myFunction3() {
+    function concat0() {
         kikuk6 = e1.concat(" <- merge -> ", dusun);
         document.getElementById("hasil").innerHTML = kikuk6;
     }
 
-    myFunction78 = () => {
+    charAt0 = () => {
         document.getElementById("hasil").innerHTML = e1.charAt(0);
     }
      
-    myFunction79 = () => {
+    charCodeAt0 = () => {
         document.getElementById("hasil").innerHTML = e1.charCodeAt(0);
     }
 
@@ -112,46 +117,46 @@ var e2 = e1.split(" ");
         return a * b;
     }
 
-    myFunction80 = () => {
+    Number0 = () => {
         var kk = Number(z);
         hasil.innerHTML = kk + ' ' + typeof(kk);
     }
 
-    myFunction81 = () => {
+    parseInt0 = () => {
         var kk = parseInt(z);
         var kk1 = +z;
         hasil.innerHTML = kk + ' ' + typeof(kk) + ' ' + kk1 + ' ' + typeof(kk1);
     }
 
-    myFunction82 = () => {
+    parseFloat0 = () => {
         var kk = parseFloat(z);
         var kk1 = +z;
         hasil.innerHTML = kk + ' ' + typeof(kk) + ' ' + kk1 + ' ' + typeof(kk1);
     }
 
-     myFunction83 = () => {
+    slice0 = () => {
         var sleman5 = e1.slice(7, 13);
         hasil.innerHTML= sleman5;
      }
 
-     myFunction84 = () => {
+     substring0 = () => {
         var sleman6 = e1.substring(7, 13);
         hasil.innerHTML = sleman6;
      }
 
-     myFunction85 = () => {
+     substr0 = () => {
         var sleman7 = e1.substr(7, 6);
         hasil.innerHTML = sleman7;
      }
 
     // perbedaan di replace kalau i mereplace 1 kata kalau g langsung semua
-    function myFunction1() {
+    replacei0 = () => {
         var str = document.getElementById("demo3").innerHTML;
         var txt = str.replace(/PURWODADI/i, "grobogan");
         document.getElementById("demo3").innerHTML = txt.toUpperCase();
     }
  
-    function myFunction2() {
+    replaceg0 = () => {
         var str = document.getElementById("demo3").innerHTML;
         var txt = str.replace(/GROBOGAN/g, "purwodadi");
         document.getElementById("demo3").innerHTML = txt;
@@ -171,13 +176,14 @@ var e2 = e1.split(" ");
 
 
 
-    // nggak muncul dipage diconsole muncul
-    // var elBaru = document.createElement('h1');
-    // var textbaru = document.createTextNode('purwodadi is smart city');
-    // var tempatnya = document.getElementById('kikuk20');
 
-    // elBaru.appendChild(textbaru);
-    // tempatnya.appendChild(elBaru);
+    myFunction90 = () => {
+        let createElement = document.createElement('h1');     //  membuat element h1 baru
+        let createText = document.createTextNode('halo bro')  // membuat text baru
+        createElement.appendChild(createText);                //  menggabungkan createText ke createElement;
+
+        document.getElementById('hasil').appendChild(createElement); // menggabungkan hasil gabungan createText dan createElement ke id hasil
+    }
 
     // tempatnya.removeChild(elBaru);
 
@@ -202,35 +208,31 @@ var e2 = e1.split(" ");
 
 
 
-    function myFunction5() {
+    sort0 = () => {
         var kk = kota.sort().join(" ");
         document.getElementById("hasil").innerHTML = kk;
     }
 
-    function myFunction6() {
+    length0 = () => {
         var kk = kota.length;
         var ko = e1.length;
         document.getElementById("hasil").innerHTML = kk + ' ' + ko;
     }
 
-    function myFunction7() {
+    ofa0 = () => {
         kota[0] = Date();
         kota[1] = myFunction6();
         kota[2] = e1;
         document.getElementById("hasil").innerHTML = kota.join(' ');
     }
 
-    function myFunction8() {
+    lastArray0 = () => {
         document.getElementById("hasil").innerHTML = kota[kota.length - 1];
-    }
-
-    function myFunction9() {
-        document.getElementById("hasil").innerHTML = kota.join(' ');
     }
 
     //no work
 
-    function myFunction10() {
+    forArray0 = () => {
         var kk = kota.length;
         text = "<ul>";
         for ($i = 0; $i < kk; $i = $i + 1) {
@@ -240,7 +242,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML = text;
     }
 
-    function myFunction11() {
+    forEach0 = () => {
         var kk = kota.length;
         var $i = 0;
         text = "<ul>";
@@ -253,76 +255,76 @@ var e2 = e1.split(" ");
         }
     }
 
-    function myFunction12() {
+    asta0 = () => {
         kota.push("surabaya");
     }
 
-    function myFunction13() {
+    instanceof0 = () => {
         document.getElementById('hasil').innerHTML = kota instanceof Array;
     }
 
-    function myFunction14() {
+    join0 = () => {
         document.getElementById('hasil').innerHTML = kota.join(' ');
     }
 
-    function myFunction15() {
+    pop0 = () => {
         document.getElementById('hasil').innerHTML = kota.pop();
     }
 
 
-    function myFunction16() {
+    shift0 = () => {
         document.getElementById('hasil').innerHTML = kota.shift();
     }
 
-    function myFunction17() {
+    unshift0 = () => {
         document.getElementById('hasil').innerHTML = kota.unshift('malang');
     }
 
-    function myFunction18() {
+    delete0 = () => {
         document.getElementById('hasil').innerHTML = delete kota[0];
     }
 
 
-    function myFunction19() {
+    splice0 = () => {
         kota.splice(1, 0, "ngawi", "cepu").join(' ');
     }
 
-    function myFunction20() {
+    splice1 = () => {
         kota.splice(0, 1).join(' ');
     }
 
-    function myFunction21() {
+    concat1 = () => {
         document.getElementById('hasil').innerHTML = kota.concat(dusun, desa).join(' ');
     }
 
-    function myFunction22() {
+    reverse0 = () => {
         document.getElementById('hasil').innerHTML = kota.reverse().join(' ');
     }
 
-    function myFunction23() {
+    sort1 = () => {
         number.sort(function (a, b) {
             return a - b
         });
         document.getElementById('hasil').innerHTML = number.join();
     }
 
-    function myFunction24() {
+    sort2 = () => {
         number.sort(function (a, b) {
             return 0.5 - Math.random();
         });
         document.getElementById('hasil').innerHTML = number.join();
     }
 
-    function myFunction25() {
+    MathMaxApply0 = () => {
         document.getElementById('hasil').innerHTML = Math.max.apply(null, number);
     }
 
-    function myFunction26() {
+    MathMinApply0 = () => {
         document.getElementById('hasil').innerHTML = Math.min.apply(null, number);
     }
 
     // kenapa object pertama munculnya NAN
-    function myFunction27() {
+    sort3 = () => {
         handphone.sort(function (a, b) {
             return a.launched - b.launched
         });
@@ -338,7 +340,7 @@ var e2 = e1.split(" ");
     }
 
 
-    function myFunction28() {
+    arrayforEach0 = () => {
         number.forEach(help);
         document.getElementById('hasil').innerHTML = txt;
     }
@@ -347,7 +349,7 @@ var e2 = e1.split(" ");
         txt = txt + value + " ";
     }
 
-    function myFunction29() {
+    map0 = () => {
         number.map(help1);
         document.getElementById('hasil').innerHTML = txt;
     }
@@ -356,7 +358,7 @@ var e2 = e1.split(" ");
         txt = txt + value * 5 + " ";
     }
 
-    function myFunction30() {
+    filter0 = () => {
         kk = number.filter(help2)
         document.getElementById("hasil").innerHTML = kk;
     }
@@ -365,7 +367,7 @@ var e2 = e1.split(" ");
         return value > 30;
     }
 
-    function myFunction31() {
+    reduce0 = () => {
         var kk = number.reduce(help3);
         document.getElementById('hasil').innerHTML = kk;
     }
@@ -374,7 +376,7 @@ var e2 = e1.split(" ");
         return total + value;
     }
 
-    function myFunction32() {
+    reduceRight0 = () => {
         var kk = number.reduceRight(help4);
         document.getElementById('hasil').innerHTML = kk;
     }
@@ -383,7 +385,7 @@ var e2 = e1.split(" ");
         return total + value;
     }
 
-    function myFunction33() {
+    every0 = () => {
         var kk = number.every(help5);
         document.getElementById('hasil').innerHTML = "apakah " + number.join(" ") + " lebih besar dari 20 = " + kk;
     }
@@ -393,7 +395,7 @@ var e2 = e1.split(" ");
     }
 
     // kenapa hasilya tidak true harusnya true
-    function myFunction34() {
+    some0 = () => {
         var kk = number.some(help6);
         document.getElementById('hasil').innerHTML = "apakah salah satu " + number.join(" ") + " lebih besar dari 20 = " + kk;
     }
@@ -402,18 +404,18 @@ var e2 = e1.split(" ");
         return value > 20;
     }
 
-    function myFunction35() {
+    indexOf0 = () => {
         var kk = kota.indexOf("surabaya");
         document.getElementById('hasil').innerHTML = 'surabaya berada diindex ke ' + kk;
     }
 
-    function myFunction36() {
+    lastIndexOf0 = () => {
         var kk = kota.lastIndexOf("surabaya");
         document.getElementById('hasil').innerHTML = 'surabaya terakhir berada diindex ke ' + kk;
     }
 
     //kenapa hasilnya undefined bukan 21
-    function myFunction37() {
+    find0 = () => {
         var kk = number.find(help7);
         document.getElementById('hasil').innerHTML = number.join(' ') + " yang lebih besar dan terdekat dari 20 adalah " + kk;
     }
@@ -422,7 +424,7 @@ var e2 = e1.split(" ");
         return value > 20;
     }
 
-    function myFunction38() {
+    findIndex0 = () => {
         var kk = number.findIndex(help8);
         document.getElementById('hasil').innerHTML = number.join(' ') + "index keberapa value yang lebih besar dan terdekat dari 20 adalah " + kk;
     }
@@ -433,13 +435,13 @@ var e2 = e1.split(" ");
 
     //kenapa var d nya tidak bisa ditaruh diluar
     // commit perbaikan date()
-    function myFunction39() {
+    date0 = () => {
         var d = new Date();
         document.getElementById('hasil').innerHTML = day[d.getDay()] + ", " + d.getDate() + " " + x + " " + d.getFullYear() + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + ":" + d.getMilliseconds();
     }
 
     //masih belum berhasil
-    function myFunction40() {
+    date1 = () => {
         var hour = new Date();
         var hourSubuh = new Date();
         // hourSubuh.setHours(4);
@@ -473,55 +475,55 @@ var e2 = e1.split(" ");
 
     }
 
-    function myFunction41() {
+    Mathround0 = () => {
         document.getElementById('hasil').innerHTML = "angka terdekat dari 8 sampai 10 adalah " + Math.round(8.10);
     }
 
 
-    function myFunction42() {
+    Mathpow0 = () => {
         document.getElementById('hasil').innerHTML = "15 x 15 = " + Math.pow(15, 2);
     }
 
-    function myFunction43() {
+    Mathsqrt0 = () => {
         document.getElementById('hasil').innerHTML = "akar kuadrat dari 64 adalah " + Math.sqrt(64);
     }
 
-    function myFunction44() {
+    Mathabs0 = () => {
         document.getElementById('hasil').innerHTML = "dari negatif  -8.898  ke positif  " + Math.abs(-8.898);
     }
 
-    function myFunction45() {
+    Mathceil0 = () => {
         document.getElementById('hasil').innerHTML = "membulatkan keangka terdekat keatas contoh 8.3 = " + Math.ceil(8.3);
     }
 
-    function myFunction46() {
+    Mathfloor0 = () => {
         document.getElementById('hasil').innerHTML = "membulatkan keangka terdekat kebawah contoh 8.3 = " + Math.floor(8.3);
     }
 
-    function myFunction47() {
+    Mathsin0 = () => {
         document.getElementById("hasil").innerHTML =
             "belum ngerti kenapa hasilnya " + Math.sin(90 * Math.PI / 180);
     }
 
-    function myFunction48() {
+    Mathcos0 = () => {
         document.getElementById("hasil").innerHTML =
             "belum ngerti kenapa hasilnya " + Math.cos(0 * Math.PI / 180);
     }
 
-    function myFunction49() {
+    Mathrandom0 = () => {
         document.getElementById('hasil').innerHTML = "mengacak nomor dari 0 sampai 1000 = " + Math.floor(Math.random() * 1001);
     }
 
-    function myFunction50(min, max) {
+    Mathrandom1 = (min, max) => {
         document.getElementById('hasil').innerHTML = "mengacak nomor dari 0 sampai 1000 = " + Math.floor(Math.random() * (max - min));
     }
 
-    function myFunction51() {
+    Boolean0 = () => {
         document.getElementById('hasil').innerHTML = "apakah 20 lebih kecil dari 25 " + Boolean(20 < 25) + ", apakah 23 lebih besar dari 17 " + Boolean(23 > 17) + ", apakah 9 sama dengan angka 9 " + Boolean(9 == 9) +
             "<br><br> <b>Note : semua value akan keluar false seperti angka 0, -0, string kosong, null, Nan, variabel yang valuenya false semua tadi akan mengeluarkan false.<br>kalau pakai = = = harus sama antara value dan type</b>";
     }
 
-    function myFunction52() {
+    comparison0 = () => {
         var a = 8;
         var c = '8';
         document.getElementById('hasil').innerHTML =
@@ -535,7 +537,7 @@ var e2 = e1.split(" ");
             '<br>angka 8 >= string 8 ' + (a >= c);
     }
 
-    function myFunction53() {
+    ifelse0 () {
         var $i = 1;
         if ($i < 10) {
             document.getElementById('hasil').innerHTML='hallo selamat pagi';
@@ -546,7 +548,7 @@ var e2 = e1.split(" ");
          }
     }
 
-    myFunction86 = () => {
+    ifelse1 = () => {
 
         if (user <= barang) {
             if (user + user2 >= barang) {
@@ -562,7 +564,7 @@ var e2 = e1.split(" ");
 
     }
 
-    function myFunction54() {
+    switch0 = () => {
      var day;
      switch (new Date().getDay()) {
       case 0:
@@ -589,7 +591,7 @@ var e2 = e1.split(" ");
      document.getElementById("hasil").innerHTML = "Today is " + day;
     }
 
-    function myFunction55() {
+    for0 = () => {
         var text = '';
         for (i = 0; i < 5; i++) {
             text += 'ulangi ' + i + 'x ';
@@ -597,7 +599,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML=text;
     }
 
-    function myFunction56() {
+    forin0 = () => {
         var text = '';
         for ($i in alamat) {
             text += alamat[$i] + " ";
@@ -605,21 +607,21 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML=text;
     }
 
-    function myFunction57() {
+    forofarray0 = () => {
         var text;
         for (text of dusun) {
             document.write(text + ' ');
         }
     }
 
-    function myFunction58() {
+    forofstring0 = () => {
         var text;
         for (text of string) {
             document.write(text + '<br>');
         }
     }
 
-    function myFunction59() {
+    while0 = () => {
         var text = '';
         var i = 0;
         while (i < 10) {
@@ -629,7 +631,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML= text;
     }
 
-    function myFunction60() {
+    dowhile0 = () => {
         var text = '';
         var i = 0;
         do {
@@ -639,7 +641,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML= text;
     }
 
-    function myFunction61() {
+    forarray0 = () => {
         var text = '';
         var i = 0;
         for(;dusun[i];) {
@@ -649,7 +651,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML= text;
     }
 
-    function myFunction62() {
+    whilearray = () => {
         var text = '';
         var i = 0;
         while (dusun[i]) {
@@ -659,7 +661,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML=text;
     }
 
-    function myFunction63() {
+    break0 = () => {
         var text = '';
         var i = 0;
         while (dusun[i]) {
@@ -675,7 +677,7 @@ var e2 = e1.split(" ");
     }
 
    
-    function myFunction64() {
+    continue0 = () => {
         var text = '';
         var i = 0;
         while (dusun[i]) {
@@ -690,7 +692,7 @@ var e2 = e1.split(" ");
         document.getElementById('hasil').innerHTML=text;
     }
 
-   function myFunction65() {
+   typeof0 = () => {
        document.getElementById('hasil').innerHTML= 
        'type data dari array dusun adalah '+typeof(e1) + '<br>' +
        'type data dari number adalah '+typeof(number) + '<br>' +
@@ -705,32 +707,28 @@ var e2 = e1.split(" ");
    }
 
    // kenapa ada yang gak bisa di concstructor padahal ditypeof bisa
-   function myFunction66() {
+   function constructor0() {
        document.getElementById('hasil').innerHTML=
-       dusun.constructor + '<br>' +
-       number.constructor + '<br>' +
-    //    Nan.constructor + '<br>' +
-       true.constructor + '<br>' +
-       user.constructor + '<br>' +
-       handphone.constructor + '<br>' +
-       d.constructor + '<br>' +
-       myFunction65.constructor + '<br>';
-    //    klakson.constructor + '<br>' +
-    //    null.constructor;
+       '1. dusun.constructor : ' + dusun.constructor + '<br>' +
+       '2. number.constructor : ' + number.constructor + '<br>' +
+       '3. NaN.constructor : ' + NaN.constructor + '<br>' +
+       '4. true.constructor : ' + true.constructor + '<br>' +
+       '5. user.constructor : ' + user.constructor + '<br>' +
+       '6. handphone.constructor : ' + handphone.constructor + '<br>' +
+       '7. d.constructor : ' + d.constructor + '<br>' +
+       '8. myFunction65.constructor : ' + myFunction65.constructor + '<br>';
    }
 
-   // gak berfungsi
-//    document.getElementById('hasil').innerHTML=kikuk(dusun);
-   
-//    function myFunction67(kikuk) {
-//     document.getElementById('hasil').innerHTML= kikuk.constructor.toString().indexOf("Array") > -1;
-//    }
+
 
 // kenapa hasilnya object bukan string
-//   function myFunction68() {
-//       document.getwElementById('hasil').innerHTML= dusun.toString()+' ' + typeof(dusun);
+  function toString0() {
+      let b = 989;
+      let a = dusun.toString();
+      document.getElementById('hasil').innerHTML= dusun +' typeof ' + typeof(dusun) +
+     '<br>' + a + ' typeof ' + typeof(a);
       
-//   }
+  }
 
   // skip bitwise
 
@@ -792,7 +790,7 @@ myFunction76 = () => {
 }
 
 /////////////////////////  SKIP CLASS  \\\\\\\\\\\\\\\\\\\\\\\\\\\
-function myFunction77() {
+split0 = () => {
     var e2 = e1.split(" ");
     document.getElementById('hasil').innerHTML= e2 + '<br>' + e1;
 }
@@ -820,28 +818,40 @@ colorBody = () => {
     let body = document.documentElement.scrollTop;
     console.log(body);
     if(body > 460) {
-        document.body.style.backgroundColor = 'red';
+        document.body.style.backgroundColor = 'rgba(255, 255, 220, 0.7)';
     }
 
     if(body < 300) {
-        document.body.style.backgroundColor = 'transparent';
+        document.body.style.backgroundColor = 'rgb(0, 0, 0)';
     }
     
 }
 
 
 
+searchCode1 = () => {
+    
+    let input = document.getElementById('searchCode');
+    let filter = input.value.toUpperCase();
+    let tempatFucntionnya = document.getElementById('tempatFunction');
+    let tombol = tempatFucntionnya.getElementsByTagName('button');
+    console.log('jumlah tombol ' + tombol.length);
+    console.log('isi buttonTest ' + tombol.textContent);
+    
 
-
-
-
-
-
-
-
-
-
-
+    let i = 0;
+    while(i < tombol.length) {
+        let textValue = tombol[i].textContent || tombol[i].innerText;
+        console.log('isi tulisan textValue' + textValue);
+        
+        if(textValue.toUpperCase().indexOf(filter) > -1) {
+        tombol[i].style.display = ''; 
+        } else {
+            tombol[i].style.display = 'none';
+        }
+        i++;
+    } 
+}
 
 
 
