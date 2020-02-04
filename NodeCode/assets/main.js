@@ -537,7 +537,7 @@ var e2 = e1.split(" ");
             '<br>angka 8 >= string 8 ' + (a >= c);
     }
 
-    ifelse0 () {
+    ifelse0 = () => {
         var $i = 1;
         if ($i < 10) {
             document.getElementById('hasil').innerHTML='hallo selamat pagi';
@@ -829,20 +829,18 @@ colorBody = () => {
 
 
 
-searchCode1 = () => {
+searchCode = () => {
     
     let input = document.getElementById('searchCode');
     let filter = input.value.toUpperCase();
     let tempatFucntionnya = document.getElementById('tempatFunction');
     let tombol = tempatFucntionnya.getElementsByTagName('button');
-    console.log('jumlah tombol ' + tombol.length);
-    console.log('isi buttonTest ' + tombol.textContent);
+
     
 
     let i = 0;
     while(i < tombol.length) {
         let textValue = tombol[i].textContent || tombol[i].innerText;
-        console.log('isi tulisan textValue' + textValue);
         
         if(textValue.toUpperCase().indexOf(filter) > -1) {
         tombol[i].style.display = ''; 
