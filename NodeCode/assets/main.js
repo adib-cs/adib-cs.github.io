@@ -121,7 +121,8 @@ var e2 = e1.split(" ");
         var kk = Number(z);
         hasil.innerHTML = kk + ' ' + typeof(kk);
     }
-
+    
+    // mengubah string number ke integer
     parseInt0 = () => {
         var kk = parseInt(z);
         var kk1 = +z;
