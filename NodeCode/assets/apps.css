@@ -78,7 +78,7 @@
 
  
     hr {
-        position: fixed;
+          height: 10px;
     }
 
     #jo {
@@ -118,3 +118,5 @@
       #myUL li a:hover:not(.header) {
         background-color: #eee;
       }
+
+      

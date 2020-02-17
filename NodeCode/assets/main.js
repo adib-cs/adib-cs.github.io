@@ -765,93 +765,150 @@ var e2 = e1.split(" ");
 ////////////////////////   ARROW FUNCTION   \\\\\\\\\\\\\\\\\\\\\\\\\\\
 // mana yang paling sering dipakai
 
-const myFunction71 = function() {
-document.getElementById('hasil').innerHTML='hallo purwodadi';
-};
+    const myFunction71 = function() {
+        document.getElementById('hasil').innerHTML='hallo purwodadi';
+    };
 
-const myFunction72 = () => {
-    document.getElementById('hasil').innerHTML='hallo sarirejo';
-};
+    const myFunction72 = () => {
+        document.getElementById('hasil').innerHTML='hallo sarirejo';
+    };
 
-const myFunction73 = () => document.getElementById('hasil').innerHTML= 'hello tambak';
+    const myFunction73 = () => document.getElementById('hasil').innerHTML= 'hello tambak';
 
-const myFunction74 = ss => document.getElementById('hasil').innerHTML= 'hello galsari' + ' ' + ss * ss;
+    const myFunction74 = ss => document.getElementById('hasil').innerHTML= 'hello galsari' + ' ' + ss * ss;
 
-const help9 = number.map(function(value) {
-  return value * 5 + '';
-});
+    const help9 = number.map(function(value) {
+        return value * 5 + '';
+    });
 
-const myFunction75 = () => {
-    document.getElementById('hasil').innerHTML= help9.join(' ');
-}
-
-myFunction76 = () => {
-    document.getElementById('hasil').innerHTML= 'halo bantul';
-}
-
-/////////////////////////  SKIP CLASS  \\\\\\\\\\\\\\\\\\\\\\\\\\\
-split0 = () => {
-    var e2 = e1.split(" ");
-    document.getElementById('hasil').innerHTML= e2 + '<br>' + e1;
-}
-
-myFunction87 = () => {
-    hasil.innerHTML= kota.valueOf();
-}
-
-myFunction88 = () => {
-    var kelas = document.getElementsByClassName("kikuk19");
-    kelas[0].innerHTML = "mantappu jiwa 1";
-    kelas[1].innerHTML = "mantappu jiwa 2";
-    kelas[2].innerHTML = "mantappu jiwa 3";
-}
-
-myFunction89 = () => {
-    var teknem = document.getElementsByTagName("li");
-    teknem[0].innerHTML = "purwodadi";
-    teknem[1].innerHTML = "jogjakarta";
-    teknem[2].innerHTML = "blora";
-}
- // jika discroll akan menjalankan sesuatu yang sudah ditentukan
-window.onscroll = function() {colorBody()};
-colorBody = () => {
-    let body = document.documentElement.scrollTop;
-    console.log(body);
-    if(body > 460) {
-        document.body.style.backgroundColor = 'rgba(255, 255, 220, 0.7)';
+    const myFunction75 = () => {
+        document.getElementById('hasil').innerHTML= help9.join(' ');
     }
 
-    if(body < 300) {
-        document.body.style.backgroundColor = 'rgb(0, 0, 0)';
+    myFunction76 = () => {
+        document.getElementById('hasil').innerHTML= 'halo bantul';
     }
+
+    /////////////////////////  SKIP CLASS  \\\\\\\\\\\\\\\\\\\\\\\\\\\
+    split0 = () => {
+        var e2 = e1.split(" ");
+        document.getElementById('hasil').innerHTML= e2 + '<br>' + e1;
+    }
+
+    myFunction87 = () => {
+        hasil.innerHTML= kota.valueOf();
+    }
+
+    myFunction88 = () => {
+        var kelas = document.getElementsByClassName("kikuk19");
+        kelas[0].innerHTML = "mantappu jiwa 1";
+        kelas[1].innerHTML = "mantappu jiwa 2";
+        kelas[2].innerHTML = "mantappu jiwa 3";
+    }
+
+    myFunction89 = () => {
+        var teknem = document.getElementsByTagName("li");
+        teknem[0].innerHTML = "purwodadi";
+        teknem[1].innerHTML = "jogjakarta";
+        teknem[2].innerHTML = "blora";
+    }
+    // jika discroll akan menjalankan sesuatu yang sudah ditentukan
+    window.onscroll = function() {colorBody()};             //  jika layar discroll jalankan function colorBody
+    colorBody = () => {                                       
+        let body = document.documentElement.scrollTop;      //  ngambil scroll top dari body berapa pixel
+        console.log(body);
+        if(body > 460) {                                                       // jika jumlah pixel body lebih besar dari 460 jalankan perintah didalam
+            document.body.style.backgroundColor = 'rgba(255, 255, 220, 0.7)';
+        }
+
+        if(body < 300) {                                                      //  jalankan perintah didalam jika dibawah 300 pixel
+            document.body.style.backgroundColor = 'rgb(30, 30, 255)';
+        }
     
-}
+    }
 
 
 
-searchCode = () => {
+    searchCode = () => {
     
-    let input = document.getElementById('searchCode');
-    let filter = input.value.toUpperCase();
-    let tempatFucntionnya = document.getElementById('tempatFunction');
-    let tombol = tempatFucntionnya.getElementsByTagName('button');
+        let input = document.getElementById('searchCode');
+        let filter = input.value.toUpperCase();                             //  mengambil value input dan memperbesar hurufnya
+        let tempatFucntionnya = document.getElementById('tempatFunction');  //  get tempat function2
+        let tombol = tempatFucntionnya.getElementsByTagName('button');      //  get button ditempat function
 
     
 
-    let i = 0;
-    while(i < tombol.length) {
-        let textValue = tombol[i].textContent || tombol[i].innerText;
+        let i = 0;
+        while(i < tombol.length) {                                         //  loping sesuai jumlah tombol ditempat function
+        let textValue = tombol[i].textContent || tombol[i].innerText;      //  mengambil text dari tombol difunction sesuai urutan looping
         
-        if(textValue.toUpperCase().indexOf(filter) > -1) {
-        tombol[i].style.display = ''; 
-        } else {
+        if(textValue.toUpperCase().indexOf(filter) > -1) {                 //  memperbesar huruf textValue dan mencari indexnya
+            tombol[i].style.display = '';                                  //  jika angka indexnya lebih besar dari -1 perlihatkan tombolnya
+        } else {                                                           //  jika tidak lebih besar maka sembunyikan tombolnya
             tombol[i].style.display = 'none';
         }
         i++;
-    } 
-}
+        } 
+    }
 
+ 
+    alertBoxConfirmAndprompt = () => {
+        if(confirm('jawab pertanyaanku ya!')) {                       //  minta konfirmasi jika tekan oke lakukan perintah didalam
+            let username = prompt('masukan username facebook');       //  minta username & password
+            let password = prompt('masukan password facebook', '');   
+            let ul = username.length + 0;                             //  0 ditambah jumlah inputan
+            let pl = password.length + 0;
 
+            if(ul == 0 && pl == 0) {                                  //  jika jumlah username dan password 0 jalankan perintah didalam
+                alert('username dan password kosong');
+                console.log('username dan password kosong');
+                
+            }   else if(ul == 0)  {                                  //  jika jumlah username 0 jalankan perintah didalam
+                    alert('username kosong cuman password yang keisi');
+                    console.log('username kosong cuman password yang keisi');
+                
+                }
+                
+                else if(pl == 0) {                                  //  jika jumlah password 0 jalankan perintah didalam
+                    alert('password kosong cuman username yang keisi');
+                    console.log('password kosong cuman username yang keisi');
+                
+                }
 
+        } else {
+            alert('yaudah kalau gak mau');                       // jika tidak mau tekan oke
+        }
+    }
 
+    addCookie = () => {
+        let keyCookie = prompt('masukan key cookie :', '');          // input key
+        let valueCookie = prompt('masukan value cookie :', '');      // input value
+        document.cookie = keyCookie + '=' + valueCookie + '; expires=Wed,5 Feb 2020 14:16:10 UTC;';  // menambah key dan value kecookie   
+        let cek = document.cookie;         //  cek cookie
+        console.log(cek + ' telah ditambahkan kecookie');
 
+        // prompt('masukan key cookie untuk menghapusnya ',)  date expired dikasih tgl yang udah terlewat
+    }
+
+    addSession = () => {
+        let keySession = prompt('masukan key sessionnya dulu ', '');              //  input key
+        let valueSession = prompt('masukan value untuk key ' + keySession, '');   //  input value
+        //   console.log(typeof(username));
+      
+        sessionStorage.setItem(keySession, valueSession);                         //  menambah key dan value ke session
+        console.log('key ' + keySession + ' dan value ' + sessionStorage.getItem(keySession) + ' ditambahkan');
+
+        if(confirm('apakah mau menghapus item session')) {          
+            let deleteSession = prompt('masukan key itemnya', '');   //  input key
+            sessionStorage.removeItem(deleteSession);                //  hapus item session pakai keynya
+        }
+
+        let ceckValueSession = prompt('masukan key item untuk melihat value session : ', '');
+        console.log('value dari key ' + ceckValueSession + ' adalah ' + sessionStorage.getItem(ceckValueSession));
+        
+        if(confirm('klik ok untuk menghapus semua data disession')) {
+            sessionStorage.clear();                                   //  menghapus semua data disession
+        }
+    }
+
+    
