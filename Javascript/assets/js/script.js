@@ -11,7 +11,7 @@ $( () => {
         'scrollLeft', 'scrollTop', 'wrap', 'wrapAll', 'unwrap', 'wrapInner',
         'parent', 'parents', 'parentsUntil', 'children', 'find', 'siblings', 'next', 'nextAll', 
         'nextUntil', 'prev', 'prevAll', 'prevUntil', 'first', 'last',  'eq', 'filter',  'not', 'load',
-        'get'
+        'get', 'post'
     ];
     
     let color = [
@@ -34,7 +34,7 @@ $( () => {
         $('.tengah').css('margin', '0 0 0 9%');
         let button = "<button id='" + id[$no] + "' class='btn col-md-2 btn-outline-"+ color[noRandom] +" mr-1 mb-1'>"+ id[$no] +"</button>"
         ba.append(button);
-        if( id[$no] == 'offsetParent' || id[$no] == 'post') {
+        if( id[$no] == 'offsetParent') {
           $("#"+id[$no]).attr('style', 'background-color: grey; color: black; opacity: 0.3;').prop('disabled', true);
         }
         $no++;
@@ -438,19 +438,35 @@ $( () => {
 
 
 
-    $('#post').click( function(e) {
-      e.preventDefault();  
-      let nama = $('#name').val();
-      let rt = $('#rt').val();
-      let rw = $('#rw').val();
-      
-      $.post('post.php', { nama: nama, rt: rt, rw: rw }, (data, status) => {
-        log(data + ' - ' + status); 
-      })
-    });
+  // $('#post').click( () => {
+  //   console.log('hello');
+  // });
+
+  $('#postest').click( () => {
+    let test = $('#nama').val();
+    let rt = $('#rt').val();
+    let rw = $('#rw').val();
+
+       $.post('post.php', { nama: test, rt: rt, rw : rw }, (data, status) => {
+      log(data + ' - ' + status); 
+    })
+  });
 
 
 
+  // $('#post').click( (e) => {
+  //   e.preventDefault();  
+  //   let nama = $('#name').val();
+  //   console.log(nama);
+    
+  //   // let rt = $('#rt').val();
+  //   // let rw = $('#rw').val();
+  //   // // console.log(nama);
+    
+  //   // $.post('post.php', { nama: nama, rt: rt, rw: rw }, (data, status) => {
+  //   //   log(data + ' - ' + status); 
+  //   // })
+  // });
 
     // $.ajax({
     //   method: 'post',

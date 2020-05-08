@@ -1,6 +1,6 @@
 <?php 
-
-// require 'app/conn.php';
+require '../app/conn.php';
+// require '/var/www/html/adib-cs.github.io/Javascript/app/conn.php';
 ?>
 
 <!DOCTYPE html>
@@ -68,14 +68,14 @@
 
     <br><br>
     <h3>hello world 3</h3>
+
     <div class="container">
-        <form>
-            <input type="text" id="name"><br><br>
-            <input type="text" id="rt" placeholder="rt"><br><br>
-            <input type="text" id="rw" placeholder="rw"><br><br>
-            <button type="submit" id="post">POST</button><br>
-        </form>
-    </div>
+        <input type="text" id="nama">
+        <input type="text" id="rt">
+        <input type="text" id="rw">
+        <button id="postest">test123</button>      
+    </div><br><br>
+
 
     
     <script src="../assets/js/script.js"></script>

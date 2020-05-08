@@ -1,11 +1,12 @@
 <?php
 $dbHost = 'localhost';
 $dbName = 'desa';
-$dbUsername = 'root';
+$dbUsername = 'adibpwd';
 $dbPassword = 'sarirejo'; 
 
-return $conn = mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName);
-
+$conn = mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName);
+$ok = var_dump((bool) $conn);
+$i = 'hel';
 
 
 // function query($query) {
